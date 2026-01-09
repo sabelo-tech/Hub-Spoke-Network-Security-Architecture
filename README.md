@@ -23,15 +23,6 @@ I designed and implemented a production-grade network security architecture in A
 
 After securing identities in Project 1, companies still face network-level security gaps:
 
-**Before this project:**
-- ❌ Flat network where everything can talk to everything
-- ❌ Virtual machines exposed to the internet (RDP/SSH ports open)
-- ❌ Web servers can directly access databases (lateral movement risk)
-- ❌ No visibility into network traffic
-- ❌ Cannot detect or prevent lateral movement attacks
-- ❌ All resources in one network (no environment separation)
-- ❌ No centralized network security management
-
 **After this project:**
 - ✅ Hub-spoke topology with clear security zones
 - ✅ Zero exposed management ports (secure access only)
