@@ -75,6 +75,141 @@ After securing identities in Project 1, companies still face network-level secur
 - Ready for security hardening in Week 2
 
 <h2>Week 1 Program walk-through:</h2>
+
+<p align="center">
+1. Creating Network-Project-RG: <br/>
+<img src="https://i.imgur.com/6etn9rp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+2. creating virtual network:  <br/>
+<img src="https://i.imgur.com/nBCB7fl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3. IP Address and Azure Bastion Subnet: <br/>
+<img src="https://i.imgur.com/iOHasg0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4. Management Subnet:  <br/>
+<img src="https://i.imgur.com/FMXg6K4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5. Verifying Subnets:  <br/>
+<img src="https://i.imgur.com/KPa4LWs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6. Tags for virtual network:  <br/>
+<img src="https://i.imgur.com/undefined.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+7. verifying v.net creation:  <br/>
+<img src="https://i.imgur.com/I1Dpa3X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+ 8. creating Spoke1-Web-VNet: <br/>
+<img src="https://i.imgur.com/KHxIrP0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+9. IP address and subnet :  <br/>
+<img src="https://i.imgur.com/A8KE7BJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+10. Spoke1-Web-VNet created: <br/>
+<img src="https://i.imgur.com/zO27nnw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+11. Spoke2-App-VNet:  <br/>
+<img src="https://i.imgur.com/CuW7Sve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+12. Spoke2 IP Address and AppSubnet Ip address and range:  <br/>
+<img src="https://i.imgur.com/W32OUex.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+13. Creating Spoke3-Database-VNet-:  <br/>
+<img src="https://i.imgur.com/wv31dvl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.12 Sec Admin 002:  <br/>
+<img src="https://i.imgur.com/WsC5rvi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+4.1 Creating IT Department Group 01:  <br/>
+<img src="https://i.imgur.com/4W1ucY4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.2 Creating Finance Department Group: <br/>
+<img src="https://i.imgur.com/h7vFIdF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.3 Creating HR Department Group:  <br/>
+<img src="https://i.imgur.com/wLItg4g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.4 Creating Operations Department Group:  <br/>
+<img src="https://I.imgur.com/bcc72yL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.5 Creating Security Department Group:  <br/>
+<img src="https://i.imgur.com/FPkZe90.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.6 Creating Priviledged Administrators Group:  <br/>
+<img src="https://i.imgur.com/NYmcs2e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+4.7 Creating Developers Department Group: <br/>
+<img src="https://i.imgur.com/CfAvlbl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.8 Creating VPN Access Group:  <br/>
+<img src="https://i.imgur.com/67kSmII.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.9 Verify all groups created: <br/>
+<img src="https://i.imgur.com/VW34KRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.1 Creating Production Resource Group:  <br/>
+<img src="https://i.imgur.com/pPArxfX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.2 Creating Development Resource Group:  <br/>
+<img src="https://i.imgur.com/InbH4Zm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.3 Creating Security Resource Group:  <br/>
+<img src="https://i.imgur.com/krZUKEw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.4 Creating Networking Resource Group:  <br/>
+<img src="https://i.imgur.com/dgihg6Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+5.5 Verifying the Resource Groups:  <br/>
+<img src="https://i.imgur.com/LDmSFJk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+6.1 Access Control role assignment for the Finance department on a subscription level:  <br/>
+<img src="https://i.imgur.com/Pf2QJGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.2 Assign Contributor Role to Development-RG on a subscription level: <br/>
+<img src="https://i.imgur.com/6jEK3LG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.3 Assign Security Administrator Role:  <br/>
+<img src="https://i.imgur.com/lo4HjJM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.4 Creating custom role "VM Security Operator:  <br/>
+<img src="https://i.imgur.com/ClIhCJH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.5 Creating custom role "Storage Security Reader":  <br/>
+<img src="https://i.imgur.com/albKoqz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.5 Creating custom role "Key Vaults Secrets Officer":  <br/>
+<img src="https://i.imgur.com/fB19Z3m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+6.6 Assigning custom role to Security Team Department:  <br/>
+<img src="https://i.imgur.com/eWhOFgc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 ---
 
 ### Week 2: Network Security Groups (6-7 hours)
