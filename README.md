@@ -128,58 +128,58 @@ After securing identities in Project 1, companies still face network-level secur
 <img src="https://i.imgur.com/wv31dvl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-3.12 Sec Admin 002:  <br/>
-<img src="https://i.imgur.com/WsC5rvi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+14. Spoke3-Database-VNet IP Address and subnet:  <br/>
+<img src="https://i.imgur.com/R6AbGMo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
-4.1 Creating IT Department Group 01:  <br/>
-<img src="https://i.imgur.com/4W1ucY4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+15. Spoke3-Database-VNet Tag:  <br/>
+<img src="https://i.imgur.com/TbRdVdO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4.2 Creating Finance Department Group: <br/>
-<img src="https://i.imgur.com/h7vFIdF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+16. Verifying all V.Nets: <br/>
+<img src="https://i.imgur.com/oyCF2NI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4.3 Creating HR Department Group:  <br/>
-<img src="https://i.imgur.com/wLItg4g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+17. vnet peering Spoke1-Web-to-Hub:  <br/>
+<img src="https://i.imgur.com/FQ5G0P2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4.4 Creating Operations Department Group:  <br/>
-<img src="https://I.imgur.com/bcc72yL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+18. vnet peering Spoke2-App-to-Hub:  <br/>
+<img src="https://imgur.com/hOfh556.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4.5 Creating Security Department Group:  <br/>
-<img src="https://i.imgur.com/FPkZe90.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+19. vnet peering Spoke3-Database-to-Hub:  <br/>
+<img src="https://i.imgur.com/m7xZJb7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4.6 Creating Priviledged Administrators Group:  <br/>
-<img src="https://i.imgur.com/NYmcs2e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+20. verifying all peerings:  <br/>
+<img src="https://i.imgur.com/65U5VdV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
    <br />
-4.7 Creating Developers Department Group: <br/>
-<img src="https://i.imgur.com/CfAvlbl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+21. Creating VM in Web Tier: <br/>
+<img src="https://i.imgur.com/y9MKqTe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4.8 Creating VPN Access Group:  <br/>
-<img src="https://i.imgur.com/67kSmII.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+22. VM Disk information:  <br/>
+<img src="https://i.imgur.com/TZjZi3Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4.9 Verify all groups created: <br/>
-<img src="https://i.imgur.com/VW34KRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+23. VM Networking information: <br/>
+<img src="https://i.imgur.com/5tq2vd0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-5.1 Creating Production Resource Group:  <br/>
-<img src="https://i.imgur.com/pPArxfX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+24.VM Management Information:  <br/>
+<img src="https://i.imgur.com/1leWF0h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-5.2 Creating Development Resource Group:  <br/>
-<img src="https://i.imgur.com/InbH4Zm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+25.Creating VM in App Tier:  <br/>
+<img src="https://i.imgur.com/fwUE4iH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-5.3 Creating Security Resource Group:  <br/>
-<img src="https://i.imgur.com/krZUKEw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+26.Creating VM in Database Tier:  <br/>
+<img src="https://i.imgur.com/oedyjVw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-5.4 Creating Networking Resource Group:  <br/>
-<img src="https://i.imgur.com/dgihg6Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+27. Creating Management VM in Hub:  <br/>
+<img src="https://i.imgur.com/6BMuY1u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 5.5 Verifying the Resource Groups:  <br/>
 <img src="https://i.imgur.com/LDmSFJk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
