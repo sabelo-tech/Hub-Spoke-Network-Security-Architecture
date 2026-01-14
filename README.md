@@ -98,7 +98,7 @@ After securing identities in Project 1, companies still face network-level secur
 <br />
 <br />
 6. Tags for virtual network:  <br/>
-<img src="https://i.imgur.com/undefined.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nYf5fXW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 7. verifying v.net creation:  <br/>
@@ -181,34 +181,24 @@ After securing identities in Project 1, companies still face network-level secur
 27. Creating Management VM in Hub:  <br/>
 <img src="https://i.imgur.com/6BMuY1u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
-5.5 Verifying the Resource Groups:  <br/>
-<img src="https://i.imgur.com/LDmSFJk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+28. all VMs created:  <br/>
+<img src="https://i.imgur.com/hdOFaZn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
-6.1 Access Control role assignment for the Finance department on a subscription level:  <br/>
-<img src="https://i.imgur.com/Pf2QJGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+29. test pinging VM-Web-01 with management vm:  <br/>
+<img src="https://i.imgur.com/NFJ9WaE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-6.2 Assign Contributor Role to Development-RG on a subscription level: <br/>
-<img src="https://i.imgur.com/6jEK3LG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+30. test pinging VM-App-01 with Managemment VM: <br/>
+<img src="https://i.imgur.com/jDwOUlN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-6.3 Assign Security Administrator Role:  <br/>
-<img src="https://i.imgur.com/lo4HjJM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+31. test pinging VM-Database-01 with management VM:  <br/>
+<img src="https://imgur.com/oAYzbfF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-6.4 Creating custom role "VM Security Operator:  <br/>
-<img src="https://i.imgur.com/ClIhCJH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+32. Typology:  <br/>
+<img src="https://i.imgur.com/meXu2Hh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-6.5 Creating custom role "Storage Security Reader":  <br/>
-<img src="https://i.imgur.com/albKoqz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-6.5 Creating custom role "Key Vaults Secrets Officer":  <br/>
-<img src="https://i.imgur.com/fB19Z3m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
-6.6 Assigning custom role to Security Team Department:  <br/>
-<img src="https://i.imgur.com/eWhOFgc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 ---
 
