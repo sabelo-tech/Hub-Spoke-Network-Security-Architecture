@@ -259,12 +259,130 @@ After securing identities in Project 1, companies still face network-level secur
 - Prevented lateral movement between tiers
 - Web tier compromised = attacker stuck in web tier only
 
-**Files created:**
-- [Week 2 detailed notes](./Week2-NSG-Security/README.md)
-- [NSG rules matrix](./Week2-NSG-Security/documentation/nsg-rules-matrix.md)
-- [Traffic flow diagrams](./Week2-NSG-Security/architecture/traffic-flows.png)
-- [Security testing results](./Week2-NSG-Security/documentation/security-testing.md)
-
+<p align="center">
+33. security strategy : <br/>
+<img src="https://i.imgur.com/4f3rL4f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+34. Creating ASG for Web Servers:  <br/>
+<img src="https://i.imgur.com/DktHb93.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+35. Creating ASG for Application Servers: <br/>
+<img src="https://i.imgur.com/GT1bAud.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+36. Creating ASG for Database Servers:  <br/>
+<img src="https://i.imgur.com/vAKx2NZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+37. Creating ASG for Management Servers:  <br/>
+<img src="https://i.imgur.com/3V6QuCE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+38. Verifying that all ASGs are created:  <br/>
+<img src="https://i.imgur.com/c6kuDQB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+39. Assigning VM-Web-01 to ASG-WebServers:  <br/>
+<img src="https://i.imgur.com/uZtoM5y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+40. Assigning VM-App-01 to ASG-AppServers: <br/>
+<img src="https://i.imgur.com/ahjAQc5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+41. Assigning VM-Database-01 to ASG-DatabaseServers:  <br/>
+<img src="https://i.imgur.com/OKluZEV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+42. Assigning VM-Management-01 to ASG-ManagementServers: <br/>
+<img src="https://i.imgur.com/zPSHoi1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+43. Creating NSG for Web Subnet:  <br/>
+<img src="https://i.imgur.com/oUSIXWM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+44. Associating NSG-WebSubnet with WebSubnet:  <br/>
+<img src="https://i.imgur.com/mzkyip4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+45. Creating NSG for App Subnet:  <br/>
+<img src="https://i.imgur.com/nSB4Bsw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+46. Associating NSG-AppSubnet with AppSubnet:  <br/>
+<img src="https://i.imgur.com/JctWJni.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+47. Creating NSG for Database Subnet:  <br/>
+<img src="https://i.imgur.com/ZGooKxt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+48. Associating NSG-DatabaseSubnet with DatabaseSubnet: <br/>
+<img src="https://i.imgur.com/IAmX289.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+50. Associating NSG-ManagementSubnet with ManagementSubnet:  <br/>
+<img src="https://i.imgur.com/4IqPetX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+51. Verifying all NSGs created:  <br/>
+<img src="https://i.imgur.com/It5GW1K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+52. Adding Inbound Rules to NSG-WebSubnet:  <br/>
+<img src="https://i.imgur.com/FDCstXm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+53. NSG-Websubnet rule allowing HTTPS from Internet:  <br/>
+<img src="https://i.imgur.com/KUqadOA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+54. NSG-Websubnet rule allowing SSH from Management: <br/>
+<img src="https://i.imgur.com/wZnfPkn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+55. NSG-Websubnet rule allowing Web to App Communication:  <br/>
+<img src="https://i.imgur.com/pcfTVj9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+56. NSG-Websubnet outbound rule denying Web to Database: <br/>
+<img src="https://i.imgur.com/ev1Fo4q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+57. NSG-Websubnet rule denying All Other Inbound:  <br/>
+<img src="https://i.imgur.com/xWsmRaX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+58. Verifying Web Tier Inbound Rules:  <br/>
+<img src="https://i.imgur.com/3z1Nqoo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+59. NSG-Websubnet outbound rule allowing Web to Internet Access :  <br/>
+<img src="https://i.imgur.com/mits9Ic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+60. NSG-Websubnet rule allowing Web to App outbound Communication:  <br/>
+<img src="https://i.imgur.com/f0Az4g9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+28. all VMs created:  <br/>
+<img src="https://i.imgur.com/hdOFaZn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+29. test pinging VM-Web-01 with management vm:  <br/>
+<img src="https://i.imgur.com/NFJ9WaE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+30. test pinging VM-App-01 with Managemment VM: <br/>
+<img src="https://i.imgur.com/jDwOUlN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+31. test pinging VM-Database-01 with management VM:  <br/>
+<img src="https://imgur.com/oAYzbfF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+32. Typology:  <br/>
+<img src="https://i.imgur.com/meXu2Hh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+</p>
 ---
 
 ### Week 3: Secure Access & Monitoring (5-6 hours)
